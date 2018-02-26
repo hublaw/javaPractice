@@ -4,6 +4,7 @@ import java.io.*;
 class LongestWord {
 
   public static String longestWord(String sentence) {
+    // remove punctuation and split on spaces
     String[] sen = sentence.replaceAll("[^a-zA-Z ]", "").split(" ");
     String longest = sen[0];
     for (String s : sen) {

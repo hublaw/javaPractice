@@ -7,7 +7,6 @@ class LongestWord {
     String[] sen = sentence.replaceAll("[^a-zA-Z ]", "").split(" ");
     String longest = sen[0];
     for (String s : sen) {
-      System.out.println(s);
       if (s.length() > longest.length()) {
         longest = s;
       }

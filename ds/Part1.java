@@ -9,10 +9,10 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.ArrayDeque;
 
-/* Read the input one line at a time and then output the lines in reverse
-   order so that the last line is output first, followed by the second-last
-	 line, and so on until the first input line is output last. */
-	 
+/* Read the input one line at a time and then output the lines in reverse order
+   so that the last line is output first, followed by the second-last line, and
+	 so on until the first input line is output last. */
+
 public class Part1 {
 
 	/**

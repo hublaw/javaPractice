@@ -81,28 +81,3 @@ public class Part7 {
 		}
 	}
 }
-
-
-// {
-// 	List<String> list = new ArrayList<String>();
-// 	String max = "";
-//
-// 	for (String line = r.readLine(); line != null; line = r.readLine()) {
-// 		if (line.compareTo(max) >= 0) {
-// 			if (list.size() > 0) {
-// 				list.clear();
-// 			}
-// 			max = line;
-// 		} else {
-// 			list.add(line);
-// 		}
-// 	}
-// 	while (list.size() > 0) {
-// 		for (String s : list) {
-// 			max = (s.compareTo(max) > 0) ? s : max;
-// 		}
-// 		list = list.subList(list.lastIndexOf(max) + 1, list.size());
-// 		System.out.println(max);
-// 		max = "";
-// 	}
-// }
